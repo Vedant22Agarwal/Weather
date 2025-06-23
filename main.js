@@ -62,7 +62,7 @@ searchForm.addEventListener("submit", (e) => {
 });
 
 const fetchWeather = async () => {
-  const apiKey = "a52d712fc6b9e4ce601d3b54decfb44a";
+  const apiKey = "837fa4aa94ea9437d279ba006b7f6484";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
   try {
